@@ -1,0 +1,28 @@
+[include]
+  path = ~/.gitconfig.user
+[core]
+  editor = code-insiders --wait
+[color]
+  ui = auto
+[commit]
+  template = ~/.gitmessage
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code-insiders --wait --diff $LOCAL $REMOTE
+[help]
+	autocorrect = 1
+[init]
+	defaultBranch = main
+[merge]
+  log = true
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code-insiders --wait $MERGED
+[pull]
+  rebase = true
+[push]
+  default = simple
+  followTags = true
+[rebase]
+  autoSquash = true
