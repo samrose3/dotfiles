@@ -1,4 +1,4 @@
-export ZSH="/Users/samr/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME=""
 VSCODE=code-insiders
@@ -33,3 +33,4 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 # git
 alias git="hub"
 alias cleanup="git branch --merged | egrep -v \"(^\*|master|primary|develop)\" | xargs git branch -d"
+

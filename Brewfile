@@ -1,3 +1,5 @@
+tap "homebrew/cask-versions"
+
 brew "autojump"
 brew "bat"
 brew "ffmpeg"
