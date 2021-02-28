@@ -1,11 +1,13 @@
 [include]
   path = ~/.gitconfig.user
-[core]
-  editor = code-insiders --wait
 [color]
   ui = auto
+[core]
+  editor = code-insiders --wait
 [commit]
   template = ~/.gitmessage
+[credential]
+	helper = osxkeychain
 [diff]
   tool = vscode
 [difftool "vscode"]
