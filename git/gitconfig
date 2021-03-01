@@ -7,15 +7,15 @@
 [commit]
   template = ~/.gitmessage
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 [diff]
   tool = vscode
 [difftool "vscode"]
   cmd = code-insiders --wait --diff $LOCAL $REMOTE
 [help]
-	autocorrect = 1
+  autocorrect = 1
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [merge]
   log = true
   tool = vscode
